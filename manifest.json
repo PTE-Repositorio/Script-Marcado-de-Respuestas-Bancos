@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Checket Respuestas",
+  "version": "1.0",
+  "description": "Permite marcar las respuestas de los bancos de pregntas para descargar PDF",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+    
+  }
+}
